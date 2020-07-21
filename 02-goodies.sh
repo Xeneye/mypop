@@ -54,4 +54,9 @@ faac \
 flac \
 libdca-utils \
 x264 \
-x265 && sudo /lib/systemd/systemd-sysv-install enable preload
+x265 \
+vlc \
+thunderbird \
+thunderbird-gnome-support \
+thunderbird-locale-en-gb \
+timeshift && sudo /lib/systemd/systemd-sysv-install enable preload
