@@ -4,10 +4,6 @@
 sudo mv bashrc\ \(root\) /root/.bashrc
 sudo mv bashrc\ \(user\) ~/.bashrc
 
-## Delete Folders
-cd
-sudo rm -R devel/ newdeb/
-
 ## Reboot
 echo "-----------------"
 echo "Rebooting Shortly"
