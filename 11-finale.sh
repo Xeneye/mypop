@@ -6,7 +6,7 @@ sudo mv bashrc\ \(user\) ~/.bashrc
 
 ## Reboot
 echo "-----------------"
-echo "Rebooting Shortly"
+echo "Final Update & Reboot"
 echo "-----------------"
 sleep 5
-sudo reboot
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo reboot
